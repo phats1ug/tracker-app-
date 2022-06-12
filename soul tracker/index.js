@@ -11,7 +11,10 @@ function increment() {
 }
 
 function save() {
-	console.log(count)
+    countstr = count + " - "
+    saveEl.textContent += countstr
+  
+    console.log(count)
 }
 
 save()
